@@ -1,6 +1,8 @@
 # this program will filter all the instruments that has good fundamentals and price change percentage
 # on daily basis is more than 5%
-# run once in a month
+# run daily before calculateTrigger.py,
+# delete all the files inside destination directory before running this program
+# this need to run after CalculatePriceChange.py
 import pandas as pd
 import os
 

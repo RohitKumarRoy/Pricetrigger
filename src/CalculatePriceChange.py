@@ -1,6 +1,6 @@
-# this program will calculate the price variation on daily basis and the percentage of price change
-# on daily basis for all the instruments present in NSE
-# run once in a month
+""" this program will calculate the price variation on daily basis and the percentage of price change on daily basis
+for all the instruments present in NSE
+run once in a month """
 import pandas as pd
 import os
 
